@@ -147,7 +147,7 @@ const SignUp = () => {
 
                 <a href="/cadastro" className="advice-yellow">
                     <i className="uil uil-shield-exclamation"></i>&nbsp;
-                    Procure colocar as informações corretamente - Não será possível editar depois!
+                    Try to enter the information correctly - It will not be possible to edit later!
                     &nbsp;<i className="uil uil-shield-exclamation"></i>
                 </a>
             </PetsDetails>
