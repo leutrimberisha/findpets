@@ -9,25 +9,22 @@ const Carreiras = () => {
     return (
         <SubPages>
             <a href="/pets"><img src={Logo} /></a>
-<h2>Careers</h2>
-<p>
-    Our team at FindYourPet is managed by Kalify Inc., an organization
-    aiming to solve everyday problems through technology and assist
-    society with web-based solutions. <br /><br /> Are you interested in working with FindYourPet? We always have
-    volunteer positions - up to the present moment - to help our application grow
-    and evolve. Since we currently do not have sponsors and do not have
-    any advertising plans or any other revenue-generating initiatives, we
-    rely on donations to keep the project running. <br /><br />
-    As a result, the services surrounding this project are entirely free
-    and of immense importance in aiding and reducing the impact on lost animals,
-    animals without owners, and animals available for adoption, but with limited exposure,
-    making it difficult for them to find homes. <br /><br />
-    If you have expertise and believe you can help our project evolve, you
-    can access our <a href="https://github.com/Yagasaki7K/website-findyourpet" target="_blank" rel="noreferrer">repository on Github</a>, fork the project - make a copy to your account - upload the updates we need, and open a PR - pull request - we will
-    review it, and if it's of significant importance and quality for the project, you will be
-    credited as one of the contributors. <br /><br />
-</p>
-
+            <h2>Carreiras</h2>
+            <p>
+                Nossa equipe da FindYourPet é administrada pela Kalify Inc. uma organização
+                que visa solucionar problemas do cotidiano através da tecnologia e auxiliar
+                a sociedade com soluções web. <br /><br /> Ficou interessado e quer trabalhar com a FindYourPet? Sempre temos vagas
+                voluntárias - até o presente momento - para ajudar nossa aplicação a subir
+                e evoluir. Como atualmente não contamos com patrocinadores e não temos
+                nenhum plano de anúncio ou qualquer outro tipo de coisa que gere renda, nós
+                pedimos doações para ajudar o projeto a continuar funcionando. <br /> <br />Com isso, os serviços ao redor desse projeto são de cunhos gratuitos e de
+                mega importância para auxiliar e diminuir o impacto sobre animais perdidos,
+                animais sem dono e animais que estão em doação, mas com a pouca divulgação,
+                fica difícil disso acontecer. <br /> <br />
+                Se você tem conhecimento e acredita que pode ajudar nosso projeto a evoluir, você
+                pode acessar nosso <a href="https://github.com/Yagasaki7K/website-findyourpet" target="_blank" rel="noreferrer">repositório no Github</a>, abrir um FORK - copiar o projeto para a sua conta - subir a atualização que precisamos e abrir um PR - pull request - nós iremos
+                avaliar ela e se for de total importância e qualidade para o projeto, você será
+                citado como um dos contribuidores. <br /> <br />
             </p>
             <AddPetButton />
             <Footer />
