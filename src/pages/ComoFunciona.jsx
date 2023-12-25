@@ -9,33 +9,35 @@ const ComoFunciona = () => {
     return (
         <SubPages>
             <a href="/pets"><img src={Logo} /></a>
-            <h2>Como Funciona?</h2>
-            <p>
-                O aplicativo é simples: O que você precisa fazer é ir até a parte de <a href="/cadastro">cadastro</a> ou clicar no botão de [+]
-                ao lado direito e você será redirecionado. Ao chegar na parte de cadastro, você deverá informar o nome do animal, você poderá deixar apenas
-                cachorro, gato ou qualquer outro animal para caso de você acabar de resgatar ele e não souber o nome. Na parte de descrição, você descreva ele, usando as caracteristicas do bichinho, mas seja curto e rápido
-            </p>
-            <br />
-            <p>
-                Coloque uma imagem do seu animalzinho encontrado, perdido ou em adoção. Qualquer imagem que represente
-                qualquer outra coisa fora do gênero será retirado da plataforma e a publicação será deletada. Tenha bom senso
-                e use uma boa iluminação. Na parte de tipo, você deverá informar apenas uma das três categorias: Ele é um animal encontrado,
-                um animal perdido ou um animal em adoção? Vale lembrar que não aceitamos vendas de animais em
-                nossa plataforma em hipótese alguma. Por isso, qualquer ato do gênero, será deletado!
-            </p>
-            <br />
-            <p>
-                Na parte de localização, informe o bairro em que ele foi encontrado, assim a pessoa conseguirá
-                ter noção da distância. Jamais coloque seu endereço físico, não nos responsabilizamos por qualquer
-                problema envolvendo esse tipo de informação. E deixe um contato, através do telefone que a pessoa entrará em contato com você para saber mais
-                sobre o animalzinho, tome cuidado com as informações compartilhadas e seja cauteloso para não
-                ser vítima de qualquer golpe ou ato de má fé.
-            </p>
-            <br />
-            <p>
-                Após isso, é só enviar o formulário que nosso sistema irá analisar e fazer a publicação
-                automaticamente para todos os usuários que estiverem acessando o website.
-            </p>
+            <h2>How Does It Work?</h2>
+<p>
+    The app is simple: What you need to do is go to the <a href="/signup">sign-up</a> section or click the [+] button
+    on the right-hand side, and you'll be redirected. Once you reach the sign-up section, you'll need to provide the animal's name. You can simply
+    enter 'dog,' 'cat,' or any other generic name in case you've just rescued the animal and don't know its name. In the description part,
+    describe the animal using its characteristics, but keep it brief and concise.
+</p>
+<br />
+<p>
+    Upload an image of your found, lost, or adoptable pet. Any image representing
+    something other than the animal will be removed from the platform, and the post will be deleted. Use common sense
+    and ensure good lighting. In the type section, you should only select one of three categories: Is it a found animal,
+    a lost animal, or an animal up for adoption? Please note that we do not allow the sale of animals
+    on our platform under any circumstances. Hence, any such action will be deleted!
+</p>
+<br />
+<p>
+    In the location section, indicate the neighborhood where the animal was found so that people can
+    have an idea of the distance. Never provide your physical address; we do not take responsibility for any
+    issues related to this type of information. Provide a contact number so that people can reach out to you to learn more
+    about the animal. Be cautious about the information you share and be careful not to
+    fall victim to any scams or malicious acts.
+</p>
+<br />
+<p>
+    After this, simply submit the form, and our system will review and automatically publish it
+    for all users accessing the website.
+</p>
+
             <AddPetButton />
             <Footer />
         </SubPages>
