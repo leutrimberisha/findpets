@@ -7,8 +7,8 @@ const FaleConosco = () => {
   return (
     <SubPages>
       <a href="/pets"><img src={Logo} /></a>
-      <h2>Carreiras</h2>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis excepturi fuga eligendi iure architecto exercitationem corrupti ratione laborum reprehenderit omnis! Cum, minus ad. Quasi minus natus fuga libero aliquam neque!</p>
+      <h2>Careers</h2>
+      <p>Thank you very much. The flight of the body to choose the right architect will criticize the exercise of the corrupt system of labor! Since, less ad. As if he had not been born without any free flight!</p>
     </SubPages>
   )
 }
