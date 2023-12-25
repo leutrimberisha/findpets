@@ -53,7 +53,7 @@ function Pets() {
             <Navigation />
 
             <a href="/cadastro" className="advice">
-                <i className="uil uil-shield-exclamation"></i>&nbsp;Test perdeu um animal? Está querendo doar um? Ou encontrou um perdido? Cadastre ele!&nbsp;<i className="uil uil-shield-exclamation"></i>
+                <i className="uil uil-shield-exclamation"></i>&nbsp; I lost an animal? Are you looking to donate one? Or found a lost one? Register him! !&nbsp;<i className="uil uil-shield-exclamation"></i>
             </a>
 
             {/* <div className="categories">
