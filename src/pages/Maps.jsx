@@ -16,7 +16,7 @@ const Maps = () => {
             <PetsDetails>
                 <Navigation />
                 <a href="/signup" className="advice">
-                    <i className="uil uil-shield-exclamation"></i>&nbsp;Você perdeu um animal? Está querendo adotar um? Ou encontrou um perdido? Cadastre ele!
+                    <i className="uil uil-shield-exclamation"></i>&nbsp;Have you lost an animal? Are you looking to adopt one? Or found a lost one? Register him!
                 </a>
             </PetsDetails>
 
@@ -32,8 +32,8 @@ const Maps = () => {
                             <Marker position={[-22.859352775021673, -47.04971628178976]}>
                                 <Popup>
                                     <h4>Animal em Adoção</h4>
-                                    <p>Rondele - Macho, médio 🐶19kg - Jovem adulto - @adotarondelli</p>
-                                    <p>Telefone: <a href="https://wa.me/+5519982698309" target="_blank" rel='noreferrer'>+55 19 9 82698309</a></p>
+                                    <p>Rondele - Male, medium 🐶19kg - Young adult - @adotarondelli</p>
+                                    <p>Telephone: <a href="https://wa.me/+5519982698309" target="_blank" rel='noreferrer'>+xxx xxx xxxx</a></p>
                                 </Popup>
                             </Marker>
                         </MapContainer>
