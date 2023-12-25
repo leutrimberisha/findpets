@@ -37,7 +37,7 @@ const slugPage = () => {
         <PetsDetails>
             <Navigation />
             <a href="/cadastro" className="advice">
-                <i className="uil uil-shield-exclamation"></i>&nbsp;Você perdeu um animal? Está querendo doar um? Ou encontrou um perdido? Cadastre ele!&nbsp;<i className="uil uil-shield-exclamation"></i>
+                <i className="uil uil-shield-exclamation"></i>&nbsp;Have you lost an animal? Are you looking to donate one? Or found a lost one? Register him!&nbsp;<i className="uil uil-shield-exclamation"></i>
             </a>
             <SlugDetails>
                 {
@@ -53,14 +53,14 @@ const slugPage = () => {
                                         {pets.name} - {pets.status}
                                     </h1>
 
-                                    <p>Quem é {pets.name}? {pets?.description}</p>
-                                    <p><i className="uil uil-map-marker"></i> Localizado em {pets?.locale}</p>
+                                    <p>Who is it {pets.name}? {pets?.description}</p>
+                                    <p><i className="uil uil-map-marker"></i> Located in {pets?.locale}</p>
 
                                     <div className="link">
-                                        <a href={`https://api.whatsapp.com/send/?phone=` + pets?.contact + '&text=Olá%2C+tudo+bom%3F+Vim+do+FindYourPet+e+estou+interessada+em+saber+mais+a+respeito+do+pet+que+está+no+anúncio+..'} target="_blank" rel="noreferrer"><i className="uil uil-whatsapp"></i> Entre em Contato!</a>
+                                        <a href={`https://api.whatsapp.com/send/?phone=` + pets?.contact + '&text=Olá%2C+tudo+bom%3F+Vim+do+FindYourPet+e+estou+interessada+em+saber+mais+a+respeito+do+pet+que+está+no+anúncio+..'} target="_blank" rel="noreferrer"><i className="uil uil-whatsapp"></i> Contact!</a>
 
-                                        <button onClick={getLink} id="buttonON"><i className="uil uil-share-alt"></i> Compartilhe!</button>
-                                        <button id="buttonOFF">Link Copiado!</button>
+                                        <button onClick={getLink} id="buttonON"><i className="uil uil-share-alt"></i> Share!</button>
+                                        <button id="buttonOFF">Copied Link!</button>
                                     </div>
                                 </div>
                             </div>
