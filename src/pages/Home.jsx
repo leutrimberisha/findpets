@@ -38,7 +38,7 @@ const Home = () => {
                     <a href="/"><img src={Logo} /></a>
                     <li><a href="/sobre-nos">Sobre a Qualify</a></li>
                     <li><a href="/carreiras">Careers</a></li>
-                    <li><a href="https://discord.gg/jhSepmE7nN" target="_blank" rel='noreferrer'>Support</a></li>
+                    <li><a href="https://discord.gg/jhSepmE7nN" target="_blank" rel='noreferrer'>Support </a></li>
                     <li><a href="https://play.google.com/store/apps/details?id=com.kalifyinc.findyourpet&pli=1">Download</a></li>
                     <button onClick={() => toHome()}>Enter</button>
                 </ul>
