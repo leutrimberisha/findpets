@@ -36,12 +36,12 @@ export default function Modal() {
 
                         <ModalContent>
                             <h1>
-                                Que tal usar pelo App?
+                                How about using hair App?
                             </h1>
 
                             <p>
-                                Pelo app é bem mais rápido e fácil de usar, além de
-                                ter as informações na palma da sua mão!
+                                The app is much faster and easier to use, in addition to
+                                 have the information in the palm of your hand!
                             </p>
 
                             <a href="https://play.google.com/store/apps/details?id=com.kalifyinc.findyourpet&pli=1" target="_blank" rel="noreferrer">
