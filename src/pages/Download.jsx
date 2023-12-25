@@ -10,19 +10,19 @@ const Download = () => {
         <SubPages>
             <a href="/pets"><img src={Logo} /></a>
             <h1>Download</h1>
-            <a href="https://play.google.com/store/apps/details?id=com.kalifyinc.findyourpet&pli=1" target="_blank" rel="noreferrer">Clique aqui para baixar a versão do aplicativo para Android</a>
+            <a href="https://play.google.com/store/apps/details?id=com.kalifyinc.findyourpet&pli=1" target="_blank" rel="noreferrer">Click here to download the Android version of the app</a>
 
             <br /><br />
             <h2>Changelog</h2>
             <p>
                 <strong>1.0.1</strong>
                 <br />
-                - Adicionado: Termos e Políticas
+                - Added: Terms and Policies
 
                 <br /><br />
                 <strong>1.0.0</strong>
                 <br />
-                - Lançamento do aplicativo
+                - App launch
             </p>
             <AddPetButton />
             <Footer />
