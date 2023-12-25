@@ -154,39 +154,39 @@ const SignUp = () => {
 
             <FormSignUpDetails>
                 <form onChange={() => collectData()}>
-                    <h4>Nome do Animal</h4>
+                    <h4>Animal Name</h4>
                     <input type="text" id="name" placeholder="Nome do Animalzinho"
                         maxLength={15} size={24} />
 
-                    <h4>Foto do Animal</h4>
+                    <h4>Animal Photo</h4>
                     <input type="file" id="photo" onChange={getImage}></input>
 
-                    <h4>Descrição do Animal</h4>
+                    <h4>Animal Description</h4>
                     <textarea id="description" placeholder="Cachorro pequeno, Pêlo branco, carinhoso, gosta de bolinhas" maxLength={50}
                         rows="4" cols="28" size={30} />
 
-                    <h4>Bairro/Cidade do Animal</h4>
+                    <h4>Neighborhood/City of Animal</h4>
                     <input type="text" id="locale" placeholder="Seu Bairro e Cidade"
                         maxLength={20} size={24} />
 
-                    <h4>Qual é a Situação:</h4>
+                    <h4>What is the situation:</h4>
                     <select id="status" onChange={() => sendDataSelect()}>
-                        <option value="">Selecione</option>
-                        <option value="Adoção">Adoção</option>
-                        <option value="Encontrado">Animal Encontrado</option>
-                        <option value="Perdido">Animal Perdido</option>
+                        <option value="">Select</option>
+                        <option value="Adoção">Adoption</option>
+                        <option value="Encontrado">Animal Found</option>
+                        <option value="Perdido">Lost Animal</option>
                     </select>
 
-                    <h4>Número do WhatsApp*</h4>
+                    <h4>WhatsApp number*</h4>
                     <div>
                         <input type="text" id="contact" placeholder="19123456789"
                             maxLength={11} size={24} />
                     </div>
-                    <i>*Não coloque espaço, traço ou parentêses</i>
+                    <i>*Do not use spaces, dashes or parentheses</i>
 
                     <div>
-                        <button type="reset" className="reset">Limpar</button>
-                        <button type="button" className="send" onClick={sendData}>Cadastrar</button>
+                        <button type="reset" className="reset">To clean</button>
+                        <button type="button" className="send" onClick={sendData}>Register</button>
                     </div>
                 </form>
             </FormSignUpDetails>
